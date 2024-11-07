@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/krishna/krishna/project/azure/msdocs-python-fastapi-webapp-quickstart/venv"
+set -gx VIRTUAL_ENV "/home/krishna/krishna/project/azure/test/msdocs-python-fastapi-webapp-quickstart/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
