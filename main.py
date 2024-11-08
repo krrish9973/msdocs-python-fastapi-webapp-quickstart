@@ -12,8 +12,8 @@ def about():
     return render_template('about.html')
 
 @app.route("/api")
-def root():
-    return render_template('api.json')
+def api():
+    return '{"message": "Hello, World!"}'
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=80)
