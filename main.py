@@ -10,5 +10,9 @@ def index():
 def about():
     return render_template('about.html')
 
+@app.route("/api")
+def root():
+    return {"message": "Hello, World!"}
+
 if __name__ == '__main__':
     app.run(debug=True)
